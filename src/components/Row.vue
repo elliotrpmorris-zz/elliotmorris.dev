@@ -18,7 +18,6 @@ export default {
   -ms-flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -1rem;
   // Remove Wrap
   &--no-wrap {
     flex-wrap: nowrap;
