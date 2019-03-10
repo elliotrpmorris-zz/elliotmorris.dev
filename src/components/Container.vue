@@ -1,0 +1,24 @@
+<template>
+  <div class="grid-container">
+    <slot/>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Container',
+};
+</script>
+
+<style lang="scss">
+@import "../assets/scss/app";
+
+.grid-container {
+  max-width: $xl-screen-width;
+  margin: 0 auto;
+  &--fluid {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+</style>
