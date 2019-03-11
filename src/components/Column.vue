@@ -68,6 +68,66 @@ export default {
       required: false,
       default: false,
     },
+    tOne: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    tTwo: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    tThree: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    tFour: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    tFive: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    tSix: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    tSeven: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    tEight: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    tNine: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    tTen: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    tEleven: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    tTwelve: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
   },
   computed: {
     classes() {
@@ -84,6 +144,18 @@ export default {
         'grid-col--10': this.ten,
         'grid-col--11': this.eleven,
         'grid-col--12': this.twelve,
+        'grid-col--t--1': this.tOne,
+        'grid-col--t--2': this.tTwo,
+        'grid-col--t--3': this.tThree,
+        'grid-col--t--4': this.tFour,
+        'grid-col--t--5': this.tFive,
+        'grid-col--t--6': this.tSix,
+        'grid-col--t--7': this.tSeven,
+        'grid-col--t--8': this.tEight,
+        'grid-col--t--9': this.tNine,
+        'grid-col--t--10': this.tTen,
+        'grid-col--t--11': this.tEleven,
+        'grid-col--t--12': this.tTwelve,
       };
     },
   },
