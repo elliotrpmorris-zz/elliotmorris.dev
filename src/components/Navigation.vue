@@ -1,5 +1,5 @@
 <template>
-  <nav class="em-nav" aria-label="Primary Navigation" role="navigation">
+  <nav class="em-nav p-t-16" aria-label="Primary Navigation" role="navigation">
     <router-link class="em-nav__link p-r-16" to="/">Home</router-link>
     <router-link class="em-nav__link" to="/about">About</router-link>
   </nav>
@@ -15,6 +15,28 @@ export default {
 @import "../assets/scss/app";
 
 .em-nav {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  &__link {
+    &:after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background: $black;
+      transition: width 0.3s;
+      transform: background 0.5s;
+      position: relative;
+      z-index: 2;
+    }
+    &:hover,
+    &:focus {
+      color: $black;
+      transition: color 0.6s;
+      &:after {
+        width: 100%;
+      }
+    }
+  }
 }
 </style>
