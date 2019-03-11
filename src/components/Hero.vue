@@ -8,7 +8,9 @@
       </em-row>
       <em-row>
         <em-column twelve>
-          <h1 class="em-hero__title">Yo, I'm Elliot! A Web developer from the UK.</h1>
+          <div class="em-hero__title-wrapper m-t-16">
+            <h1 class="em-hero__title">Yo, I'm Elliot! A Web developer from the UK.</h1>
+          </div>
         </em-column>
       </em-row>
     </em-container>
@@ -41,6 +43,10 @@ export default {
     @include tablet {
       text-align: left;
     }
+  }
+  &__title-wrapper {
+    background-color: $alto;
+    padding: $spacing-l $spacing-xl;
   }
 }
 </style>
