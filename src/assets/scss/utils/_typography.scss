@@ -18,19 +18,19 @@ $font-bold: 700;
 h1 {
   font-family: $font-primary;
   font-size: $font-size-xl;
-  // color: black
+  color: $black;
   font-weight: $font-medium;
 }
 h2 {
   font-family: $font-primary;
   font-size: $font-size-l;
-  // color: $dove-grey;
+  color: $dove-grey;
   font-weight: $font-regular;
 }
 h3 {
   font-family: $font-primary;
   font-size: $font-size-m;
-  // color: $dove-grey;
+  color: $dove-grey;
   font-weight: $font-regular;
 }
 
@@ -38,9 +38,15 @@ h3 {
 p {
   font-family: $font-primary;
   font-size: $font-size-s;
-  // color: $dove-grey;
+  color: $dove-grey;
 }
 
+a {
+  font-family: $font-primary;
+  font-size: $font-size-s;
+  color: $dove-grey;
+  text-decoration: none;
+}
 // Base font size
 html {
   font-size: 12px;
