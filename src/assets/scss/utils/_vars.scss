@@ -1,3 +1,7 @@
+// Colours
+$white: #ffffff;
+$black: #000000;
+
 // Breakpoints
 $small-devices-width: 576px;
 $tablet-width: 768px;
@@ -25,4 +29,4 @@ $spaceamounts: (
   104: 6.5,
   112: 7
 );
-$sides: (all, top, bottom, left, right);
+$sides: (top, bottom, left, right);

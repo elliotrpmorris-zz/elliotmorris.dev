@@ -1,3 +1,50 @@
 @import url("https://fonts.googleapis.com/css?family=Bitter");
 
 $font-primary: "Bitter", serif;
+
+// Font size
+$font-size-xl: 4rem;
+$font-size-l: 3.25rem;
+$font-size-m: 2.5rem;
+$font-size-s: 1.5625rem;
+
+// Font weights
+$font-regular: 400;
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+
+// Headings
+h1 {
+  font-family: $font-primary;
+  font-size: $font-size-xl;
+  // color: black
+  font-weight: $font-medium;
+}
+h2 {
+  font-family: $font-primary;
+  font-size: $font-size-l;
+  // color: $dove-grey;
+  font-weight: $font-regular;
+}
+h3 {
+  font-family: $font-primary;
+  font-size: $font-size-m;
+  // color: $dove-grey;
+  font-weight: $font-regular;
+}
+
+// Paragraphs
+p {
+  font-family: $font-primary;
+  font-size: $font-size-s;
+  // color: $dove-grey;
+}
+
+// Base font size
+html {
+  font-size: 12px;
+  @include tablet {
+    font-size: 16px;
+  }
+}

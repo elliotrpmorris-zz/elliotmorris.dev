@@ -1,11 +1,13 @@
 <template>
-  <em-container>
-    <em-row>
-      <em-column nine>test</em-column>
-      <em-column three>test</em-column>
-      <em-column eight>test</em-column>
-    </em-row>
-  </em-container>
+  <section class="em-hero">
+    <em-container>
+      <em-row>
+        <em-column twelve>
+          <h1 class="em-hero__title">Yo, I'm Elliot! A Web developer from the UK.</h1>
+        </em-column>
+      </em-row>
+    </em-container>
+  </section>
 </template>
 
 <script>
@@ -23,5 +25,15 @@ export default {
 };
 </script>
 
-<style>
+<style scoped lang="scss">
+@import "../assets/scss/app";
+
+.em-hero {
+  &__title {
+    text-align: center;
+    @include tablet {
+      text-align: left;
+    }
+  }
+}
 </style>

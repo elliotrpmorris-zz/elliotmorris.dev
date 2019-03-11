@@ -162,13 +162,11 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 @import "../assets/scss/app";
 
 .grid-col {
   box-sizing: border-box;
-  background-color: green;
-  border: 0.5px dashed black;
   text-align: center;
   width: 100%;
   @include tablet {
