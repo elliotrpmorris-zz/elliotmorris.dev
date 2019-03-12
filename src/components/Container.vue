@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'container',
+  name: "container"
 };
 </script>
 
@@ -16,6 +16,7 @@ export default {
 .grid-container {
   max-width: $xl-screen-width;
   margin: 0 auto;
+  padding: 0 $base-spacing;
   &--fluid {
     margin: 0;
     max-width: 100%;
