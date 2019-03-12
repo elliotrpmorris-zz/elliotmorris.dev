@@ -1,13 +1,30 @@
 <template>
-  <nav class="em-nav p-t-16" aria-label="Primary Navigation" role="navigation">
-    <router-link class="em-nav__link p-r-16" to="/">Home</router-link>
-    <router-link class="em-nav__link" to="/about">About</router-link>
-  </nav>
+  <header>
+    <em-container>
+      <em-row>
+        <em-column>
+          <nav class="em-nav p-t-16" aria-label="Primary Navigation" role="navigation">
+            <router-link class="em-nav__link p-r-16" to="/">Home</router-link>
+            <router-link class="em-nav__link" to="/about">About</router-link>
+          </nav>
+        </em-column>
+      </em-row>
+    </em-container>
+  </header>
 </template>
 
 <script>
+import EmContainer from '@/components/Container.vue';
+import EmRow from '@/components/Row.vue';
+import EmColumn from '@/components/Column.vue';
+
 export default {
   name: 'navigation',
+  components: {
+    EmContainer,
+    EmRow,
+    EmColumn,
+  },
 };
 </script>
 
