@@ -167,8 +167,6 @@ export default {
 
 .grid-col {
   box-sizing: border-box;
-  background-color: green;
-  border: 0.5px dashed black;
   text-align: center;
   padding: 0 $base-spacing;
   width: 100%;

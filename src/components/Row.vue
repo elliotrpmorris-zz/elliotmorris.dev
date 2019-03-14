@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'Row',
+  name: "Row"
 };
 </script>
 
@@ -15,7 +15,7 @@ export default {
 
 .grid-row {
   display: -ms-flexbox;
-  -ms-flex-wrap: wrap;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   // Remove Wrap
