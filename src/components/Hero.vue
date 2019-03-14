@@ -33,8 +33,10 @@ export default {
 .em-hero {
   &__title {
     text-align: center;
+    font-size: 3rem;
     @include tablet {
       text-align: left;
+      font-size: 4rem;
     }
   }
   &__title-wrapper {

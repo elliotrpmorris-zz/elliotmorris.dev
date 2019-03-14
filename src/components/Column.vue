@@ -168,7 +168,6 @@ export default {
 .grid-col {
   box-sizing: border-box;
   text-align: center;
-  padding: 0 $base-spacing;
   width: 100%;
   @include tablet {
     // Column % Tablet
