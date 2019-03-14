@@ -7,6 +7,10 @@
 </template>
 
 <script>
+import EmContainer from "@/components/Container.vue";
+import EmRow from "@/components/Row.vue";
+import EmColumn from "@/components/Column.vue";
+
 export default {
   name: "navigation"
 };
