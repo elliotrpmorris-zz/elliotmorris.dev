@@ -1,21 +1,21 @@
 <template>
   <em-container>
     <nav class="em-nav p-t-16" aria-label="Primary Navigation" role="navigation">
-      <router-link class="em-nav__link p-r-16" to="/">Home 🏠</router-link>
-      <router-link class="em-nav__link p-r-16" to="/about">About 📖</router-link>
-      <router-link class="em-nav__link" to="/contact">Contact 🤙</router-link>
+      <router-link class="em-nav__link p-r-16" to="/">Home</router-link>
+      <router-link class="em-nav__link p-r-16" to="/about">About</router-link>
+      <router-link class="em-nav__link" to="/contact">Contact</router-link>
     </nav>
   </em-container>
 </template>
 
 <script>
-import EmContainer from '@/components/Container.vue';
+import EmContainer from "@/components/Container.vue";
 
 export default {
-  name: 'navigation',
+  name: "navigation",
   components: {
-    EmContainer,
-  },
+    EmContainer
+  }
 };
 </script>
 
@@ -29,6 +29,7 @@ export default {
     justify-content: flex-end;
   }
   &__link {
+    font-family: $font-secondary;
     &:after {
       content: "";
       display: block;

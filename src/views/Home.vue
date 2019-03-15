@@ -1,16 +1,16 @@
 <template>
   <div class="home">
-    <hero/>
+    <em-hero/>
   </div>
 </template>
 
 <script>
-import Hero from '@/components/Hero.vue';
+import EmHero from "@/components/Hero.vue";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
-    Hero,
-  },
+    EmHero
+  }
 };
 </script>
