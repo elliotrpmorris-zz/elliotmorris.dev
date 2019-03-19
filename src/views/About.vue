@@ -6,7 +6,15 @@
           <em-column
             class="about__content"
             twelve
-          >I am a full stack developer from the UK, currently working for a Marketing agency in Leeds aswell as working on my own projects. I work on both creating websites and software. My experience ranges from developing scripts, (for example to access an API) suggesting optimization improvements, to building full blown websites with or without a CMS and hosting the site I have knowledge of both linux and windows servers.</em-column>
+          > 
+            <em-heading xlarge>About</em-heading>
+            <em-text>
+              I am a full stack developer from the UK, currently working for a Marketing agency in Leeds aswell as working on my own projects. 
+              I work on both creating websites and software. My experience ranges from developing scripts, 
+              (for example to access an API) suggesting optimization improvements, to building full blown websites with or without a CMS and hosting the site 
+              I have knowledge of both linux and windows servers.
+            </em-text>
+          </em-column>
         </em-row>
       </em-container>
     </em-container>
@@ -17,13 +25,17 @@
 import EmContainer from "@/components/Container.vue";
 import EmRow from "@/components/Row.vue";
 import EmColumn from "@/components/Column.vue";
+import EmText from "@/components/Text.vue";
+import EmHeading from "@/components/Heading.vue";
 
 export default {
   name: "about",
   components: {
     EmContainer,
     EmRow,
-    EmColumn
+    EmColumn,
+    EmText,
+    EmHeading
   }
 };
 </script>
