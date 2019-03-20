@@ -9,13 +9,13 @@
 </template>
 
 <script>
-import EmContainer from "@/components/Container.vue";
+import EmContainer from '@/components/Container.vue';
 
 export default {
-  name: "navigation",
+  name: 'navigation',
   components: {
-    EmContainer
-  }
+    EmContainer,
+  },
 };
 </script>
 
@@ -29,7 +29,7 @@ export default {
     justify-content: flex-end;
   }
   &__link {
-    font-family: $font-secondary;
+    font-family: $font-primary;
     cursor: pointer;
     &:after {
       content: "";
