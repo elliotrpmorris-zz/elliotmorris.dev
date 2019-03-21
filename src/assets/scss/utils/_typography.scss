@@ -50,8 +50,17 @@ a {
 }
 // Base font size
 html {
-  cursor: url("/assets/svg/cursor-arrow.svg"), pointer;
+  //url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAo0lEQVQoz5XSTQ4BQRRF4a8rYtYzLIf4WUMvABP2gxELqDW0RCQsBjMzI4MuiUiIOrNXuScvlXcLb9yrqo8Fxujiij02ZYzHV65I4TZWmPvOFssyxkcrPWww9ZtZWjIr7lU1wMH/9EP6Qw7LgGGmNAroZUq9gEumdAk4Z0qnoLlPDutQxlhj96ewK2OsQxoWmov/YptyTY1evHVvgg5uqH107wnQ8iZDEUUY6AAAAABJRU5ErkJggg==),auto
   font-size: 12px;
+  box-sizing: border-box;
+  cursor: url("/assets/svg/cursor-arrow.svg"), auto;
+
+  *{
+    cursor: url("/assets/svg/cursor-arrow.svg"), auto;
+    box-sizing: border-box;
+  }
+ 
+  
   @include tablet {
     font-size: 16px;
   }
