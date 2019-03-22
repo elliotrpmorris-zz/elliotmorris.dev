@@ -1,17 +1,17 @@
 <template>
   <main id="app">
-    <em-nav/>
+    <em-page-header/>
     <router-view/>
   </main>
-</template>
+</template> 
 
 <script>
-import EmNav from '@/components/Navigation.vue';
+import EmPageHeader from "@/components/PageHeader.vue";
 
 export default {
   components: {
-    EmNav,
-  },
+    EmPageHeader
+  }
 };
 </script>
 

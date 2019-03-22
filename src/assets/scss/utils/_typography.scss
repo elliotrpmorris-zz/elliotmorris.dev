@@ -8,34 +8,15 @@ $font-size-xl: 4rem;
 $font-size-l: 3.25rem;
 $font-size-m: 2.5rem;
 $font-size-s: 1.5625rem;
-
+$font-size-body-m: 1.25rem;
+$font-size-body-s: 1.125rem;
+$font-size-base: 1rem;
 // Font weights
 $font-regular: 400;
 $font-medium: 500;
 $font-semi-bold: 600;
 $font-bold: 700;
 
-// Headings
-// h1 {
-//   font-family: $font-primary;
-//   font-size: $font-size-xl;
-//   color: $black;
-//   font-weight: $font-medium;
-// }
-// h2 {
-//   font-family: $font-primary;
-//   font-size: $font-size-l;
-//   color: $dove-grey;
-//   font-weight: $font-regular;
-// }
-// h3 {
-//   font-family: $font-primary;
-//   font-size: $font-size-m;
-//   color: $dove-grey;
-//   font-weight: $font-regular;
-// }
-
-// Paragraphs
 p {
   font-family: $font-primary;
   font-size: $font-size-s;
@@ -44,19 +25,19 @@ p {
 
 a {
   font-family: $font-primary;
-  font-size: $font-size-s;
+  font-size: $font-size-body-m;
   color: $dove-grey;
   text-decoration: none;
 }
 // Base font size
 html {
   //url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAo0lEQVQoz5XSTQ4BQRRF4a8rYtYzLIf4WUMvABP2gxELqDW0RCQsBjMzI4MuiUiIOrNXuScvlXcLb9yrqo8Fxujiij02ZYzHV65I4TZWmPvOFssyxkcrPWww9ZtZWjIr7lU1wMH/9EP6Qw7LgGGmNAroZUq9gEumdAk4Z0qnoLlPDutQxlhj96ewK2OsQxoWmov/YptyTY1evHVvgg5uqH107wnQ8iZDEUUY6AAAAABJRU5ErkJggg==),auto
-  font-size: 12px;
+  font-size: 14px;
   box-sizing: border-box;
-  cursor: url("/assets/svg/cursor-arrow.svg"), auto;
-
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAo0lEQVQoz5XSTQ4BQRRF4a8rYtYzLIf4WUMvABP2gxELqDW0RCQsBjMzI4MuiUiIOrNXuScvlXcLb9yrqo8Fxujiij02ZYzHV65I4TZWmPvOFssyxkcrPWww9ZtZWjIr7lU1wMH/9EP6Qw7LgGGmNAroZUq9gEumdAk4Z0qnoLlPDutQxlhj96ewK2OsQxoWmov/YptyTY1evHVvgg5uqH107wnQ8iZDEUUY6AAAAABJRU5ErkJggg==), auto;
+   
   *{
-    cursor: url("/assets/svg/cursor-arrow.svg"), auto;
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAo0lEQVQoz5XSTQ4BQRRF4a8rYtYzLIf4WUMvABP2gxELqDW0RCQsBjMzI4MuiUiIOrNXuScvlXcLb9yrqo8Fxujiij02ZYzHV65I4TZWmPvOFssyxkcrPWww9ZtZWjIr7lU1wMH/9EP6Qw7LgGGmNAroZUq9gEumdAk4Z0qnoLlPDutQxlhj96ewK2OsQxoWmov/YptyTY1evHVvgg5uqH107wnQ8iZDEUUY6AAAAABJRU5ErkJggg==), auto;
     box-sizing: border-box;
   }
  
