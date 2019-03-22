@@ -9,13 +9,13 @@
 </template>
 
 <script>
-import EmContainer from '@/components/Container.vue';
+import EmContainer from "@/components/Container.vue";
 
 export default {
-  name: 'navigation',
+  name: "navigation",
   components: {
-    EmContainer,
-  },
+    EmContainer
+  }
 };
 </script>
 
@@ -31,6 +31,7 @@ export default {
   &__link {
     font-family: $font-primary;
     cursor: pointer;
+
     &:after {
       content: "";
       display: block;
@@ -42,6 +43,7 @@ export default {
       position: relative;
       z-index: 2;
     }
+
     &:hover,
     &:focus {
       color: $black;

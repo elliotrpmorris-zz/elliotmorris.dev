@@ -18,7 +18,7 @@ export default {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  // Remove Wrap
+
   &--no-wrap {
     flex-wrap: nowrap;
   }

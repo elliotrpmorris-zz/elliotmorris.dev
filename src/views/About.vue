@@ -54,11 +54,10 @@ export default {
   &__content {
     color: $white;
     font-family: $font-primary;
-    padding: map-get($map: $spaceamounts, $key: 8)
-      map-get($map: $spaceamounts, $key: 32);
+    padding: map-get($map: $spaceamounts, $key: 8);
 
     @include tablet {
-      padding: map-get($map: $spaceamounts, $key: 32);
+      padding: map-get($map: $spaceamounts, $key: 16);
     }
   }
 }

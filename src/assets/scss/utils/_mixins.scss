@@ -1,23 +1,23 @@
 // Media Queries
-@mixin small-devices {
+@mixin bp-sm {
   @media (min-width: $small-devices-width) {
     @content;
   }
 }
 
-@mixin tablet {
+@mixin bp-md {
   @media (min-width: $tablet-width) {
     @content;
   }
 }
 
-@mixin desktop {
+@mixin bp-lg {
   @media (min-width: $desktop-width) {
     @content;
   }
 }
 
-@mixin xl-screen {
+@mixin bp-xl {
   @media (min-width: $xl-screen-width) {
     @content;
   }

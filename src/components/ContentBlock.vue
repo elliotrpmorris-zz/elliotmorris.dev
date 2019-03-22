@@ -29,19 +29,4 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/scss/app";
-
-.em-hero {
-  &__title {
-    text-align: center;
-    font-size: 3rem;
-    @include tablet {
-      text-align: left;
-      font-size: 4rem;
-    }
-  }
-  &__title-wrapper {
-    background-color: $alto;
-    padding: $spacing-l $spacing-xl;
-  }
-}
 </style>

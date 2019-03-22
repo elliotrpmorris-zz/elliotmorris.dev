@@ -33,7 +33,7 @@ export default {
   max-width: $xl-screen-width;
   margin: 0 auto;
 
-  @include tablet {
+  @include bp-md {
     padding: 0 $base-spacing;
   }
 

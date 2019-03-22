@@ -24,7 +24,7 @@ export default {
     EmContainer,
     EmRow,
     EmColumn,
-    EmHeading,
+    EmHeading
   }
 };
 </script>
@@ -37,11 +37,13 @@ export default {
     text-align: center;
     font-size: 3.2rem;
     color: $mine-shaft;
-    @include tablet {
+
+    @include bp-md {
       text-align: left;
       font-size: 4rem;
     }
   }
+
   &__title-wrapper {
     background-color: $alto;
     padding: $spacing-l $spacing-xl;
