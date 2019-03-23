@@ -1,21 +1,14 @@
 <template>
-  <em-container>
-    <nav class="em-nav p-t-16 m-b-16" aria-label="Primary Navigation" role="navigation">
-      <router-link class="em-nav__link p-r-16" to="/">Home</router-link>
-      <router-link class="em-nav__link p-r-16" to="/about">About</router-link>
-      <router-link class="em-nav__link" to="/contact">Contact</router-link>
-    </nav>
-  </em-container>
+  <nav class="em-nav p-t-16 m-b-16" aria-label="Primary Navigation" role="navigation">
+    <router-link class="em-nav__link p-r-16" to="/">Home</router-link>
+    <router-link class="em-nav__link p-r-16" to="/about">About</router-link>
+    <router-link class="em-nav__link" to="/contact">Contact</router-link>
+  </nav>
 </template>
 
 <script>
-import EmContainer from "@/components/Container.vue";
-
 export default {
-  name: "navigation",
-  components: {
-    EmContainer
-  }
+  name: "navigation"
 };
 </script>
 
@@ -25,12 +18,19 @@ export default {
 .em-nav {
   display: flex;
   justify-content: center;
-  @include tablet {
+
+  @include bp-md {
     justify-content: flex-end;
   }
+
   &__link {
     font-family: $font-primary;
     cursor: pointer;
+    margin: space(32) space(24) space(16) 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
 
     &:after {
       content: "";

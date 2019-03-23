@@ -46,7 +46,7 @@ export default {
 
   &__title-wrapper {
     background-color: $alto;
-    padding: $spacing-l $spacing-xl;
+    padding: space(24);
   }
 }
 </style>

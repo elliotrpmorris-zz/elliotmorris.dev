@@ -1,3 +1,24 @@
+/*
+ * Convert px to rem
+ * —
+ * Param: pixel value
+ * Return: rem value
+ *
+ */
+ @function pxtorem($pixels) {
+
+  /* Convert px to rem using base font of 16px */
+  @return $pixels / 16px * 1rem;
+
+}
+
+/* 
+ * Returns rem value of 8-point grid system
+ * — 
+ * Param: pixel value
+ * Return: rem value
+ *
+ */
 @function space($pixels) {
 
   /* Map px to rem values */

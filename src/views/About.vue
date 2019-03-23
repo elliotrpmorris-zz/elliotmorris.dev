@@ -16,6 +16,14 @@
                 <em-page-text>I spend my free time working on side projects like this website!</em-page-text>
               </em-column>
             </em-row>
+            <em-row>
+              <em-column class="about__content" six>
+                <em-card>This is some text</em-card>
+              </em-column>
+              <em-column class="about__content" six>
+                <em-page-text>I spend my free time working on side projects like this website!</em-page-text>
+              </em-column>
+            </em-row>
           </em-column>
         </em-row>
       </em-container>
@@ -29,6 +37,7 @@ import EmRow from "@/components/Row.vue";
 import EmColumn from "@/components/Column.vue";
 import EmPageText from "@/components/PageText.vue";
 import EmHeading from "@/components/Heading.vue";
+import EmCard from "@/components/Card.vue";
 
 export default {
   name: "about",
@@ -37,7 +46,8 @@ export default {
     EmRow,
     EmColumn,
     EmPageText,
-    EmHeading
+    EmHeading,
+    EmCard
   }
 };
 </script>
@@ -48,16 +58,18 @@ export default {
   &__outer {
     background-color: $alto;
   }
+
   &__inner {
     background-color: $dove-grey;
   }
+
   &__content {
     color: $white;
     font-family: $font-primary;
-    padding: map-get($map: $spaceamounts, $key: 8);
+    padding: space(8);
 
-    @include tablet {
-      padding: map-get($map: $spaceamounts, $key: 16);
+    @include bp-md {
+      padding: space(16);
     }
   }
 }

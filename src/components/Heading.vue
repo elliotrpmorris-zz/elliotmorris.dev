@@ -68,7 +68,8 @@ export default {
       return {
         "em-heading--white": this.white,
         "em-heading--no-margin": this.noMargin,
-        "em-heading--primary": this.primary
+        "em-heading--primary": this.primary,
+        "em-heading--medium": this.medium
       };
     }
   }
@@ -96,22 +97,17 @@ export default {
 
   &--m {
     font-size: 1.5rem;
-   
     font-weight: 600;
   }
 
   &--s {
     font-size: 1.25rem;
-   
     font-weight: 600;
-    margin: 0.25rem 0;
   }
 
   &--xs {
     font-size: 1rem;
-  
     font-weight: 600;
-    margin: 0.25rem 0;
   }
 
   &--no-margin {
