@@ -1,34 +1,32 @@
 <template>
-  <div class="about">
-    <em-container class="about__outer" fluid>
-      <em-container class="about__inner">
-        <em-row>
-          <em-column class="about__content" twelve>
-            <em-heading xlarge>About</em-heading>
-            <em-row>
-              <em-column class="about__content" six>
-                <em-page-text>
-                  I am a full stack developer from the UK, currently working for a tech for good agency in Leeds.
-                  I love creating web apps and working with the latest tech.
-                </em-page-text>
-              </em-column>
-              <em-column class="about__content" six>
-                <em-page-text>I spend my free time working on side projects like this website!</em-page-text>
-              </em-column>
-            </em-row>
-            <em-row>
-              <em-column class="about__content" six>
-                <em-card>This is some text</em-card>
-              </em-column>
-              <em-column class="about__content" six>
-                <em-page-text>I spend my free time working on side projects like this website!</em-page-text>
-              </em-column>
-            </em-row>
-          </em-column>
-        </em-row>
-      </em-container>
+  <em-container class="about__outer" fluid>
+    <em-container class="about__inner">
+      <em-row>
+        <em-column class="about__content" twelve>
+          <em-heading xlarge>About</em-heading>
+          <em-row>
+            <em-column class="about__content" six>
+              <em-page-text>
+                I am a full stack developer from the UK, currently working for a tech for good agency in Leeds.
+                I love creating web apps and working with the latest tech.
+              </em-page-text>
+            </em-column>
+            <em-column class="about__content" six>
+              <em-page-text>I spend my free time working on side projects like this website!</em-page-text>
+            </em-column>
+          </em-row>
+          <em-row>
+            <em-column class="about__content" six>
+              <em-card>This is some text</em-card>
+            </em-column>
+            <em-column class="about__content" six>
+              <em-page-text>I spend my free time working on side projects like this website!</em-page-text>
+            </em-column>
+          </em-row>
+        </em-column>
+      </em-row>
     </em-container>
-  </div>
+  </em-container>
 </template>
 
 <script>
