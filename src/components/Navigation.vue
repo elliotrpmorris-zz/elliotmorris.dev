@@ -26,7 +26,7 @@ export default {
   &__link {
     font-family: $font-primary;
     cursor: pointer;
-    margin: space(32) space(24) space(16) 0;
+    margin: space(32) space(24) space(32) 0;
 
     &:last-child {
       margin-right: 0;

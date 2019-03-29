@@ -1,8 +1,17 @@
 <template>
   <em-container>
     <em-row>
-      <em-column six>
-        <em-card alto>lorem</em-card>
+      <em-column eight>
+        <em-card alto>
+          <em-heading>Contact me!</em-heading>
+          <em-page-text>
+            Need help with a cool project?
+            Email me!
+            <a
+              href="mailto:hello@elliotmorris.dev"
+            >hello@elliotmorris.dev</a>
+          </em-page-text>
+        </em-card>
       </em-column>
     </em-row>
   </em-container>

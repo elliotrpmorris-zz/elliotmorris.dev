@@ -71,7 +71,7 @@ export default {
     z-index: -1;
     transform: rotate(-2deg);
     box-shadow: -1px 1px 24px 0 rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.6s;
+    transition: box-shadow 0.3s;
   }
 
   &--alto {
