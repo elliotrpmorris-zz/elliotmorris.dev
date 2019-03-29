@@ -1,12 +1,40 @@
 <template>
-  <p class="text">
+  <p class="text" :class="classes">
     <slot/>
   </p>
 </template>
 
 <script>
 export default {
-  name: "pageText"
+  name: "pageText",
+
+  props: {
+    white: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
+    mineShaft: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
+    alto: {
+      type: Boolean,
+      required: false,
+      default: false
+    }
+  },
+
+  computed: {
+    classes() {
+      return {
+        "text--white": this.white,
+        "text--mineshaft": this.mineShaft,
+        "text--alto": this.alto
+      };
+    }
+  }
 };
 </script>
 
@@ -16,6 +44,17 @@ export default {
 .text {
   font-size: $base-font-size;
   font-family: $font-primary;
-  color: $white;
+
+  &--white {
+    color: $white;
+  }
+
+  &--mineshaft {
+    color: $mine-shaft;
+  }
+
+  &--alto {
+    color: $alto;
+  }
 }
 </style>

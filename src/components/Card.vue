@@ -21,7 +21,7 @@ export default {
       required: false,
       default: false
     },
-    round: {
+    white: {
       type: Boolean,
       required: false,
       default: false
@@ -32,7 +32,7 @@ export default {
     classes() {
       return {
         "em-card--alto": this.alto,
-        "em-card--round": this.round
+        "em-card--white": this.white
       };
     }
   }
@@ -47,8 +47,19 @@ export default {
   flex-direction: column;
   z-index: 1;
   position: relative;
-  padding: 104px;
+  padding: space(40);
 
+  @include bp-md {
+    padding: space(80);
+  }
+
+  &:hover {
+    &::before {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+      transform: rotate(2deg);
+    }
+  }
   &::before {
     content: " ";
     display: block;
@@ -60,7 +71,9 @@ export default {
     z-index: -1;
     transform: rotate(-2deg);
     box-shadow: -1px 1px 24px 0 rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.6s;
   }
+
   &--alto {
     background-color: $alto;
     &::before {
@@ -68,8 +81,11 @@ export default {
     }
   }
 
-  &--round {
-    border-radius: 25%;
+  &--white {
+    background-color: $white;
+    &::before {
+      background-color: $white;
+    }
   }
 }
 </style>
