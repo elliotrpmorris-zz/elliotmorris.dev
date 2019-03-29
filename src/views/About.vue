@@ -3,21 +3,13 @@
     <em-container class="about__inner">
       <em-row>
         <em-column class="about__content" twelve>
-          <em-heading xlarge>About</em-heading>
           <em-row>
-            <em-column class="about__content" six>
+            <em-column class="about__content" tweleve>
               <em-card alto>
                 <em-page-text mineShaft>
                   I am a full stack developer from the UK, currently working for a tech for good agency in Leeds.
                   I love creating web apps and working with the latest tech.
                 </em-page-text>
-              </em-card>
-            </em-column>
-            <em-column class="about__content" six>
-              <em-card white>
-                <em-page-text
-                  mineShaft
-                >I spend my free time working on side projects like this website!</em-page-text>
               </em-card>
             </em-column>
           </em-row>
@@ -50,6 +42,7 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/scss/app";
+
 .about {
   &__outer {
     background-color: $alto;
