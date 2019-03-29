@@ -30,35 +30,27 @@ a {
   text-decoration: none;
   cursor: pointer !important;
   display: inline-block;
-  vertical-align: middle;
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: lighten($color: $mine-shaft, $amount: 30%);
+    transform-origin: bottom right;
+    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  }
 
   &:hover{
-    animation-name: hvr-bob-float, hvr-bob;
-    animation-duration: .3s, 1.5s;
-    animation-delay: 0s, .3s; 
-    animation-timing-function: ease-out, ease-in-out;
-    animation-iteration-count: 1, infinite;
-    animation-fill-mode: forwards;
-    animation-direction: normal, alternate;
+   &::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+   }
   }
 }
 
-@keyframes hvr-bob-float{
-  100%{ 
-    transform: translateY(-6px);
-  }
-}
 
-@keyframes hvr-bob{
-  0%{ 
-    transform: translateY(-6px);
-  }
-  50%{ 
-    transform: translateY(-2px);
-  }
-  100%{ 
-    transform: translateY(-6px);
-  }
-}

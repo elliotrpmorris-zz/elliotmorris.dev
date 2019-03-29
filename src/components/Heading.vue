@@ -5,12 +5,6 @@
   <h2 v-else-if="large" class="em-heading em-heading--l" :class="classes">
     <slot/>
   </h2>
-  <h4 v-else-if="small" class="em-heading em-heading--s" :class="classes">
-    <slot/>
-  </h4>
-  <h5 v-else-if="xsmall" class="em-heading em-heading--xs" :class="classes">
-    <slot/>
-  </h5>
   <h3 v-else class="em-heading em-heading--m" :class="classes">
     <slot/>
   </h3>
@@ -36,27 +30,12 @@ export default {
       required: false,
       default: false
     },
-    small: {
-      type: Boolean,
-      required: false,
-      default: false
-    },
-    xsmall: {
-      type: Boolean,
-      required: false,
-      default: false
-    },
     white: {
       type: Boolean,
       required: false,
       default: false
     },
-    primary: {
-      type: Boolean,
-      required: false,
-      default: false
-    },
-    noMargin: {
+    mineShaft: {
       type: Boolean,
       required: false,
       default: false
@@ -67,9 +46,9 @@ export default {
     classes() {
       return {
         "em-heading--white": this.white,
-        "em-heading--no-margin": this.noMargin,
         "em-heading--primary": this.primary,
-        "em-heading--medium": this.medium
+        "em-heading--medium": this.medium,
+        "em-heading--mineshaft": this.mineShaft
       };
     }
   }
@@ -95,27 +74,12 @@ export default {
     font-weight: 700;
   }
 
-  &--m {
-    font-size: 1.5rem;
-    font-weight: 600;
-  }
-
-  &--s {
-    font-size: 1.25rem;
-    font-weight: 600;
-  }
-
-  &--xs {
-    font-size: 1rem;
-    font-weight: 600;
-  }
-
-  &--no-margin {
-    margin: 0;
-  }
-
   &--white {
     color: $white;
+  }
+
+  &--mineshaft {
+    color: $mine-shaft;
   }
 }
 </style>

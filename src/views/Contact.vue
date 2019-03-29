@@ -3,7 +3,7 @@
     <em-row>
       <em-column eight>
         <em-card alto>
-          <em-heading>Contact me!</em-heading>
+          <em-heading xlarge mineShaft>Contact me!</em-heading>
           <em-page-text>
             Need help with a cool project?
             Email me!
@@ -11,6 +11,7 @@
               href="mailto:hello@elliotmorris.dev"
             >hello@elliotmorris.dev</a>
           </em-page-text>
+          <img class="contact__img" src="../assets/me.jpg" alt="Image of Elliot Morris">
         </em-card>
       </em-column>
     </em-row>
@@ -37,3 +38,15 @@ export default {
   }
 };
 </script>
+
+<style scoped lang="scss">
+@import "../assets/scss/app";
+
+.contact {
+  &__img {
+    border-radius: 50%;
+    width: 150px;
+    margin: 0 auto;
+  }
+}
+</style>

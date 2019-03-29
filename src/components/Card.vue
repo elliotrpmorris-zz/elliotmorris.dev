@@ -57,9 +57,10 @@ export default {
     &::before {
       box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
         0 10px 10px rgba(0, 0, 0, 0.22);
-      transform: rotate(2deg);
+      transform: rotate(2deg) scale(1.01);
     }
   }
+
   &::before {
     content: " ";
     display: block;
@@ -71,7 +72,7 @@ export default {
     z-index: -1;
     transform: rotate(-2deg);
     box-shadow: -1px 1px 24px 0 rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s;
+    transition: all 0.3s ease-in-out;
   }
 
   &--alto {
