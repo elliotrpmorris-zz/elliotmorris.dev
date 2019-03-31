@@ -6,10 +6,20 @@
           <em-row>
             <em-column class="about__content" tweleve>
               <em-card alto>
+                <em-heading mineShaft xlarge>About me</em-heading>
                 <em-page-text mineShaft>
                   I am a full stack developer from the UK, currently working for a tech for good agency in Leeds.
                   I love creating web apps and working with the latest tech.
                 </em-page-text>
+                <em-heading mineShaft large>Heres some tech that i like to use</em-heading>
+                <ul>
+                  <li>Vue.js</li>
+                  <li>Laravel</li>
+                  <li>React</li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
               </em-card>
             </em-column>
           </em-row>
