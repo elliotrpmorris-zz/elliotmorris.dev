@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "navigation"
+  name: 'navigation',
 };
 </script>
 
@@ -25,6 +25,7 @@ export default {
 
   &__link {
     font-family: $font-primary;
+    font-size: $font-size-body-m;
     cursor: pointer;
     margin: space(32) space(24) space(32) 0;
 

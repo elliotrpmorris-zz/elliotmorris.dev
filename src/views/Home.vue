@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import EmHero from "@/components/Hero.vue";
+import EmHero from '@/components/Hero.vue';
 
 export default {
-  name: "home",
+  name: 'home',
   components: {
-    EmHero
-  }
+    EmHero,
+  },
 };
 </script>

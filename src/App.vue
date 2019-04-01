@@ -3,15 +3,15 @@
     <em-page-header/>
     <router-view/>
   </main>
-</template> 
+</template>
 
 <script>
-import EmPageHeader from "@/components/PageHeader.vue";
+import EmPageHeader from '@/components/PageHeader.vue';
 
 export default {
   components: {
-    EmPageHeader
-  }
+    EmPageHeader,
+  },
 };
 </script>
 

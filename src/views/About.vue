@@ -16,7 +16,8 @@
                   As a advocate for all things web it is important to me
                   that the product is usable by all ensuring
                   I am following high accessibility standards
-                  as well as optimizing for the best performance.
+                  as well as achieving the best performance and producing
+                  top quality code.
                 </em-page-text>
                 <em-heading mineShaft>Heres some tech that i like to use:</em-heading>
                 <ul>

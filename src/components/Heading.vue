@@ -12,46 +12,46 @@
 
 <script>
 export default {
-  name: "heading",
+  name: 'heading',
 
   props: {
     xlarge: {
       type: Boolean,
       required: false,
-      default: false
+      default: false,
     },
     large: {
       type: Boolean,
       required: false,
-      default: false
+      default: false,
     },
     medium: {
       type: Boolean,
       required: false,
-      default: false
+      default: false,
     },
     white: {
       type: Boolean,
       required: false,
-      default: false
+      default: false,
     },
     mineShaft: {
       type: Boolean,
       required: false,
-      default: false
-    }
+      default: false,
+    },
   },
 
   computed: {
     classes() {
       return {
-        "em-heading--white": this.white,
-        "em-heading--primary": this.primary,
-        "em-heading--medium": this.medium,
-        "em-heading--mineshaft": this.mineShaft
+        'em-heading--white': this.white,
+        'em-heading--primary': this.primary,
+        'em-heading--medium': this.medium,
+        'em-heading--mineshaft': this.mineShaft,
       };
-    }
-  }
+    },
+  },
 };
 </script>
 

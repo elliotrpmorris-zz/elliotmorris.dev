@@ -7,16 +7,16 @@
 </template>
 
 <script>
-import EmContainer from "@/components/Container.vue";
-import EmNav from "@/components/Navigation.vue";
+import EmContainer from '@/components/Container.vue';
+import EmNav from '@/components/Navigation.vue';
 
 export default {
-  name: "pageHeader",
+  name: 'pageHeader',
 
   components: {
     EmContainer,
-    EmNav
-  }
+    EmNav,
+  },
 };
 </script>
 

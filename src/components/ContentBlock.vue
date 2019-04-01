@@ -13,17 +13,17 @@
 </template>
 
 <script>
-import EmContainer from "@/components/Container.vue";
-import EmRow from "@/components/Row.vue";
-import EmColumn from "@/components/Column.vue";
+import EmContainer from '@/components/Container.vue';
+import EmRow from '@/components/Row.vue';
+import EmColumn from '@/components/Column.vue';
 
 export default {
-  name: "contentBlock",
+  name: 'contentBlock',
   components: {
     EmContainer,
     EmRow,
-    EmColumn
-  }
+    EmColumn,
+  },
 };
 </script>
 

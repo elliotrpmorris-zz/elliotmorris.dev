@@ -6,35 +6,35 @@
 
 <script>
 export default {
-  name: "pageText",
+  name: 'pageText',
 
   props: {
     white: {
       type: Boolean,
       required: false,
-      default: false
+      default: false,
     },
     mineShaft: {
       type: Boolean,
       required: false,
-      default: false
+      default: false,
     },
     alto: {
       type: Boolean,
       required: false,
-      default: false
-    }
+      default: false,
+    },
   },
 
   computed: {
     classes() {
       return {
-        "text--white": this.white,
-        "text--mineshaft": this.mineShaft,
-        "text--alto": this.alto
+        'text--white': this.white,
+        'text--mineshaft': this.mineShaft,
+        'text--alto': this.alto,
       };
-    }
-  }
+    },
+  },
 };
 </script>
 
