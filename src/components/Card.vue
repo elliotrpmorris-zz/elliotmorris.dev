@@ -5,37 +5,31 @@
 </template>
 
 <script>
-import EmRow from "@/components/Row.vue";
-import EmColumn from "@/components/Column.vue";
 
 export default {
-  name: "card",
-  components: {
-    EmRow,
-    EmColumn
-  },
+  name: 'card',
 
   props: {
     alto: {
       type: Boolean,
       required: false,
-      default: false
+      default: false,
     },
     white: {
       type: Boolean,
       required: false,
-      default: false
-    }
+      default: false,
+    },
   },
 
   computed: {
     classes() {
       return {
-        "em-card--alto": this.alto,
-        "em-card--white": this.white
+        'em-card--alto': this.alto,
+        'em-card--white': this.white,
       };
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -77,6 +71,8 @@ export default {
 
   &--alto {
     background-color: $alto;
+    color: $mine-shaft;
+
     &::before {
       background-color: $alto;
     }
@@ -84,6 +80,8 @@ export default {
 
   &--white {
     background-color: $white;
+    color: $mine-shaft;
+
     &::before {
       background-color: $white;
     }

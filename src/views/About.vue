@@ -8,17 +8,23 @@
               <em-card alto>
                 <em-heading mineShaft xlarge>About me</em-heading>
                 <em-page-text mineShaft>
-                  I am a full stack developer from the UK, currently working for a tech for good agency in Leeds.
-                  I love creating web apps and working with the latest tech.
+                  I am a full stack developer from the UK,
+                  currently working for a tech for good agency in Leeds.
+                  Working on creating web apps and working with the latest tech.
                 </em-page-text>
-                <em-heading mineShaft large>Heres some tech that i like to use</em-heading>
+                <em-page-text mineShaft>
+                  As a advocate for all things web it is important to me
+                  that the product is usable by all ensuring
+                  I am following high accessibility standards
+                  as well as optimizing for the best performance.
+                </em-page-text>
+                <em-heading mineShaft>Heres some tech that i like to use:</em-heading>
                 <ul>
+                  <li>HTML5, CSS3, JS</li>
                   <li>Vue.js</li>
-                  <li>Laravel</li>
                   <li>React</li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                  <li>.Net (C#), Umbraco</li>
+                  <li>Php, Laravel, Wordpress, Statamic</li>
                 </ul>
               </em-card>
             </em-column>
@@ -30,23 +36,23 @@
 </template>
 
 <script>
-import EmContainer from "@/components/Container.vue";
-import EmRow from "@/components/Row.vue";
-import EmColumn from "@/components/Column.vue";
-import EmPageText from "@/components/PageText.vue";
-import EmHeading from "@/components/Heading.vue";
-import EmCard from "@/components/Card.vue";
+import EmContainer from '@/components/Container.vue';
+import EmRow from '@/components/Row.vue';
+import EmColumn from '@/components/Column.vue';
+import EmPageText from '@/components/PageText.vue';
+import EmHeading from '@/components/Heading.vue';
+import EmCard from '@/components/Card.vue';
 
 export default {
-  name: "about",
+  name: 'about',
   components: {
     EmContainer,
     EmRow,
     EmColumn,
     EmPageText,
     EmHeading,
-    EmCard
-  }
+    EmCard,
+  },
 };
 </script>
 
