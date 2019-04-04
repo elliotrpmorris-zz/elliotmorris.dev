@@ -13,8 +13,8 @@
                   Working on creating web apps and working with the latest tech.
                 </em-page-text>
                 <em-page-text mineShaft>
-                  As a advocate for all things web it is important to me
-                  that the product is usable by all ensuring
+                  As an advocate for all things web it is important to me
+                  that the product is usable by all, ensuring
                   I am following high accessibility standards
                   as well as achieving the best performance and producing
                   top quality code.
@@ -37,23 +37,23 @@
 </template>
 
 <script>
-import EmContainer from '@/components/Container.vue';
-import EmRow from '@/components/Row.vue';
-import EmColumn from '@/components/Column.vue';
-import EmPageText from '@/components/PageText.vue';
-import EmHeading from '@/components/Heading.vue';
-import EmCard from '@/components/Card.vue';
+import EmContainer from "@/components/Container.vue";
+import EmRow from "@/components/Row.vue";
+import EmColumn from "@/components/Column.vue";
+import EmPageText from "@/components/PageText.vue";
+import EmHeading from "@/components/Heading.vue";
+import EmCard from "@/components/Card.vue";
 
 export default {
-  name: 'about',
+  name: "about",
   components: {
     EmContainer,
     EmRow,
     EmColumn,
     EmPageText,
     EmHeading,
-    EmCard,
-  },
+    EmCard
+  }
 };
 </script>
 

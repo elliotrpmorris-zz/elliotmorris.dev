@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'navigation',
+  name: "navigation"
 };
 </script>
 
@@ -44,13 +44,14 @@ export default {
       position: relative;
       z-index: 2;
     }
-
-    &:hover,
-    &:focus {
-      color: $black;
-      transition: color 0.6s;
-      &:after {
-        width: 100%;
+    @media (hover) {
+      &:hover,
+      &:focus {
+        color: $black;
+        transition: color 0.6s;
+        &:after {
+          width: 100%;
+        }
       }
     }
   }
