@@ -75,7 +75,7 @@ export default {
     padding: space(8);
 
     @include bp-md {
-      padding: space(16);
+      padding: space(40);
     }
   }
 }
