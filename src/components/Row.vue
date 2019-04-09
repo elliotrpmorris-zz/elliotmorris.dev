@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'Row',
+  name: "Row"
 };
 </script>
 
@@ -18,6 +18,8 @@ export default {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin-left: ceil($base-spacing / -2);
+  margin-right: floor($base-spacing / -2);
 
   &--no-wrap {
     flex-wrap: nowrap;

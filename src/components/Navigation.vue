@@ -2,6 +2,7 @@
   <nav class="em-nav p-t-16 m-b-16" aria-label="Primary Navigation" role="navigation">
     <router-link class="em-nav__link p-r-16" to="/">Home</router-link>
     <router-link class="em-nav__link p-r-16" to="/about">About</router-link>
+    <router-link class="em-nav__link" to="/work">Work</router-link>
     <router-link class="em-nav__link" to="/contact">Contact</router-link>
   </nav>
 </template>

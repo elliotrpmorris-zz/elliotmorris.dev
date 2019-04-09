@@ -22,5 +22,10 @@ export default new Router({
       name: 'contact',
       component: () => import('./views/Contact.vue'),
     },
+    {
+      path: '/work',
+      name: 'work',
+      component: () => import('./views/Work.vue'),
+    },
   ],
 });
