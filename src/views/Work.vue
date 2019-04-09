@@ -5,10 +5,19 @@
         <em-card alto>
           <em-heading large mineShaft>Asda Money</em-heading>
           <em-page-text>
-            Need help with a cool project?
-            Email me!
+            In my last role i was the main developer for the ASDA money site. Doing frontend work using technologies like AngularJS & Jquery and backend work with Umbraco.
+            <hr>
+            <a class="link" href="https://money.asda.com">View Site!</a>
           </em-page-text>
-          <em-social-bar/>
+
+          <details class="em-accordion">
+            <summary>Key features I built:</summary>
+            <figure class="em-accordion__content">
+              <li>Current home page</li>
+              <li>Product page hero</li>
+              <li>Custom plugin for the Umbraco admin</li>
+            </figure>
+          </details>
         </em-card>
       </em-column>
       <em-column six>
@@ -70,4 +79,16 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/scss/app";
+
+.em-accordion {
+  font-family: $font-primary;
+  font-size: $font-size-body-m;
+  color: $dove-grey;
+
+  &__content {
+    font-size: $font-size-base;
+    text-align: left;
+    padding-top: space(16);
+  }
+}
 </style>

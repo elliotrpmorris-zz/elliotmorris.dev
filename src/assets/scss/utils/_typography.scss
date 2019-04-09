@@ -56,6 +56,14 @@ a{
   }
 }
 
+details,
+summary,
+figure{
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
 ul{
   li{
     font-family: inherit;

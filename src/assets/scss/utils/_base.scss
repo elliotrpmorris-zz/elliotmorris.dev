@@ -2,6 +2,22 @@ body {
   margin: 0;
 }
 
+details,
+summary,
+figure{
+  margin: 0;
+  padding: 0;
+}
+
+hr{
+  border: none;
+  display: block;
+  height: 1px;
+  margin: 1rem 0;
+  background-color: $dove-grey;
+  opacity: .2;
+}
+
 // Base font size
 html {
   font-size: 14px;
