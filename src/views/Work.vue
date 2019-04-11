@@ -9,7 +9,6 @@
             <hr>
             <a class="link" href="https://money.asda.com">View Site!</a>
           </em-page-text>
-
           <details class="em-accordion">
             <summary>Key features I built:</summary>
             <figure class="em-accordion__content">
@@ -22,12 +21,20 @@
       </em-column>
       <em-column six>
         <em-card alto>
-          <em-heading large mineShaft>Asda Money</em-heading>
+          <em-heading large mineShaft>Leeds Rhinos</em-heading>
           <em-page-text>
-            Need help with a cool project?
-            Email me!
+            On this project i was tasked with creating all of the frontend templates which consisted of HTML, JS and CSS.
+            <hr>
+            <a class="link" href="https://www.therhinos.co.uk/">View Site!</a>
           </em-page-text>
-          <em-social-bar/>
+          <details class="em-accordion">
+            <summary>Key features I built:</summary>
+            <figure class="em-accordion__content">
+              <li>Responsible for the frontend template code</li>
+              <li>SQL Queries for getting data from opta feed</li>
+              <li>Queries</li>
+            </figure>
+          </details>
         </em-card>
       </em-column>
       <em-column six>
