@@ -23,7 +23,7 @@
         <em-card alto>
           <em-heading large mineShaft>Leeds Rhinos</em-heading>
           <em-page-text>
-            On this project i was tasked with creating all of the frontend templates which consisted of HTML, JS and CSS.
+            On this project i was tasked with creating all of the frontend templates which consisted of HTML, JS and CSS. I also worked on the Wordpress plugin which allowed us to get data from a feed provided by OPTA which enabled us to serve stats on the site.
             <hr>
             <a class="link" href="https://www.therhinos.co.uk/">View Site!</a>
           </em-page-text>
@@ -31,25 +31,15 @@
             <summary>Key features I built:</summary>
             <figure class="em-accordion__content">
               <li>Responsible for the frontend template code</li>
-              <li>SQL Queries for getting data from opta feed</li>
-              <li>Queries</li>
+              <li>SQL Queries for getting data from OPTA feed</li>
+              <li>PHP code for the Wordpress OPTA plugin</li>
             </figure>
           </details>
         </em-card>
       </em-column>
       <em-column six>
         <em-card alto>
-          <em-heading large mineShaft>Asda Money</em-heading>
-          <em-page-text>
-            Need help with a cool project?
-            Email me!
-          </em-page-text>
-          <em-social-bar/>
-        </em-card>
-      </em-column>
-      <em-column six>
-        <em-card alto>
-          <em-heading large mineShaft>Asda Money</em-heading>
+          <em-heading large mineShaft>Want to see your project here?</em-heading>
           <em-page-text>
             Need help with a cool project?
             Email me!
