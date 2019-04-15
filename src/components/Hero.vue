@@ -5,7 +5,8 @@
         <em-column twelve>
           <div class="em-hero__title-wrapper">
             <em-heading xlarge class="em-hero__title">
-              Hey, I'm Elliot! A Web developer from the UK.
+              Hey, I'm Elliot! A
+              <vue-typer :text='["developer","designer","explorer","learner"]' :shuffle="true" /> from the UK.
             </em-heading>
           </div>
         </em-column>
@@ -15,19 +16,21 @@
 </template>
 
 <script>
-import EmContainer from '@/components/Container.vue';
-import EmRow from '@/components/Row.vue';
-import EmColumn from '@/components/Column.vue';
-import EmHeading from '@/components/Heading.vue';
+import { VueTyper } from "vue-typer";
+import EmContainer from "@/components/Container.vue";
+import EmRow from "@/components/Row.vue";
+import EmColumn from "@/components/Column.vue";
+import EmHeading from "@/components/Heading.vue";
 
 export default {
-  name: 'hero',
+  name: "hero",
   components: {
+    VueTyper,
     EmContainer,
     EmRow,
     EmColumn,
-    EmHeading,
-  },
+    EmHeading
+  }
 };
 </script>
 

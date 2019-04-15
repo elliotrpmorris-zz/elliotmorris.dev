@@ -58,11 +58,6 @@ export default {
   &__content {
     color: $white;
     font-family: $font-primary;
-    padding: space(8);
-
-    @include bp-md {
-      padding: space(32);
-    }
   }
 }
 </style>
