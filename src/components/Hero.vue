@@ -2,11 +2,11 @@
   <section class="em-hero">
     <em-container>
       <em-row>
-        <em-column twelve>
+        <em-column twelve noGutters>
           <div class="em-hero__title-wrapper">
             <em-heading xlarge class="em-hero__title">
               Hey, I'm Elliot! A
-              <vue-typer :text='["developer","designer","explorer","learner"]' :shuffle="true" /> from the UK.
+              <vue-typer :text='["developer","designer","DevOps engineer"]' :shuffle="true" /> from the UK.
             </em-heading>
           </div>
         </em-column>
@@ -40,7 +40,7 @@ export default {
 .em-hero {
   &__title {
     text-align: center;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     color: $mine-shaft;
 
     @include bp-md {

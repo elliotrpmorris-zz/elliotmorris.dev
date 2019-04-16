@@ -127,6 +127,11 @@ export default {
       type: Boolean,
       required: false,
       default: false
+    },
+     noGutters: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   },
   computed: {
@@ -155,7 +160,8 @@ export default {
         "grid-col--t--9": this.tNine,
         "grid-col--t--10": this.tTen,
         "grid-col--t--11": this.tEleven,
-        "grid-col--t--12": this.tTwelve
+        "grid-col--t--12": this.tTwelve,
+        "-no-gutters": this.noGutters,
       };
     }
   }
@@ -190,5 +196,10 @@ export default {
       }
     }
   }
+}
+
+.-no-gutters{
+  padding: 0;
+  margin: 0;
 }
 </style>
